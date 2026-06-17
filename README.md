@@ -1,6 +1,10 @@
-# Improved ASPIICS processing
+# Improved ASPIICS processing (with GUI)
 
-This repository is based on S.Shestov's [aspiics-level-2-processor](https://gitlab-as.oma.be/P3SC/sergei-s-aspiics-level-2-processor) and [aspiics-level-3-processor](https://gitlab-as.oma.be/P3SC/sergei-s-aspiics-level-3-processor).
+Forked from [Improved ASPIICS processing](https://github.com/sschmaus/aspiics_processing) to add a GUI.
+
+To open the GUI, navigate to the repository folder on your computer and run `python proba3.py`. Use `uv` and `uv.lock` to manage dependencies.
+
+Original repository by [Simeon Schmauß](https://github.com/sschmaus) is based on S.Shestov's [aspiics-level-2-processor](https://gitlab-as.oma.be/P3SC/sergei-s-aspiics-level-2-processor) and [aspiics-level-3-processor](https://gitlab-as.oma.be/P3SC/sergei-s-aspiics-level-3-processor).
 
 It includes changes to both processing stages for producing cleaner output products. For convenience, Jupyter notebooks are included to batch-process many ASPIICS files at ones with multithreading.
 
